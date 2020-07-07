@@ -1,0 +1,232 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body, p,li,ul,h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+.bigContainer{
+    width: 95%;
+    margin: auto;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+/*Primera columna del header*/
+.devys-public-house__img{
+    width: 80px;
+}
+header .devys-public-house{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .devys-public-house__info{
+    text-align: justify;
+}
+header .devys-public-house .devys-public-house__info ul{
+    display: flex;
+    
+    padding: 0;
+}
+header .devys-public-house .devys-public-house__info ul li{
+    display: flex;
+    padding: 0 5px 0 0;
+}
+.devys-public-house__info--border{
+    border-bottom: 1px gray solid;
+    justify-content: space-between;
+}
+
+/*Segunda columna del header*/
+.hollywood-factory{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+/*Tercera columna del header*/
+.telefone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.telefone img{
+    width: 70px;
+}
+
+/*Movies ratio section*/
+.movies-ratio{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 15px;
+}
+.movies-ratio .firstMovie{
+    width: 100%;
+    height: 60%;
+    background-color: #FDE1EF;
+    display: grid;
+    margin-top: 10px;
+    align-items: center;
+    border-right: 1px solid black;
+}
+.movies-ratio .firstMovie span{
+    background-color: #F7C3DE;
+    border-right: 1px solid black;
+}
+.movies-ratio .firstMovie p{
+    margin: auto;
+}
+
+/*Nav*/
+nav{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: .3fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr 1fr 1fr .3fr;
+    margin-top: 20px;
+    text-align: center;
+}
+nav img{
+    width: 20px;
+    margin: 0 auto;
+}
+
+/*Main*/
+main{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    height: 65vh;
+    
+}
+
+/*mainNews*/
+.mainNews-container{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.mainNews img,.mainNews h4,.mainNews h1,.mainNews p{
+    width: 90%;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.mainNewsBottom{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.author{
+    display: flex;
+    align-items: center;
+}
+.author img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.author-info h4{
+    padding: 0;
+    width: 100%;
+}
+.mainNewsBottom-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainNewsBottom-buttons img{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+/*secondaryNews*/
+
+.secondaryNews{
+    display: grid;
+    grid-template-rows: .8fr .5fr 1fr;
+}
+
+.theGrateKate{
+    display: flex;  
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 10px;
+}
+.theGrateKate img{
+    height: 240px;
+    width: 150px;
+    padding-left: 10px;
+}
+.theGrateKate .theGrateKate-text p{
+    line-height: 22px;
+}
+.theGrateKate .theGrateKate-text h3{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.EveryOne{
+    display: flex;  
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.EveryOne img{
+    width: 100px;
+    height: 120px;
+    margin-right: 20px;
+}
+.EveyOne-text h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+.EveyOne-end{
+    margin-top: 10px;
+}
+.EveyOne-end p{
+    text-align: justify;
+}
+.EveyOne-end h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.EveyOne-end img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/*Articles*/
+.articles{
+    display: grid;
+    grid-template-rows: 1fr .7fr .7fr .7fr;
+}
+.article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.article img{
+    width: 150px;
+    height: 80px;
+    margin-right: 5px;
+    object-fit: cover;
+}
+.article-img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
